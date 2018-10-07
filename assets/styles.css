@@ -96,6 +96,7 @@
   width: 12px;
   height: 12px;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -182,20 +183,20 @@
   border-bottom: 1px solid #34a398;
 }
 
-.experience__note{
+.experience__note {
   padding: 3px;
 
   color: #22998d;
   font-size: 20px;
 }
 
-.experience__section-title{
+.experience__section-title {
   font-size: 23px;
   font-weight: bold;
   color: black;
 }
 
-.experience__wrapper-section{
+.experience__wrapper-section {
   margin: 20px 10px;
 }
 
@@ -221,16 +222,16 @@
   color: #277e75;
 }
 
-.experience__link:link{
+.experience__link:link {
   text-decoration: none;
   color: #34a398;
 }
 
-.experience__link:hover{
+.experience__link:hover {
   text-decoration: underline;
 }
 
-.experience__link:visited{
+.experience__link:visited {
   color: #34a398;
 }
 
