@@ -178,6 +178,10 @@
   margin: 20px 10px;
 }
 
+.summary__text_highlighted { 
+  color: #34a398;
+}
+
 .experience__title {
   color: #34a398;
   border-bottom: 1px solid #34a398;
@@ -223,12 +227,7 @@
 }
 
 .experience__link:link {
-  text-decoration: none;
   color: #34a398;
-}
-
-.experience__link:hover {
-  text-decoration: underline;
 }
 
 .experience__link:visited {
