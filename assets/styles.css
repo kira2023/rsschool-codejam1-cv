@@ -96,3 +96,33 @@
   width: 12px;
   height: 12px;
 }
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__title {
+  color: #34a398;
+  border-bottom: 1px solid #34a398;
+}
+
+.skills__item {
+  display: flex;
+  align-items: center;
+
+  margin: 10px;
+}
+
+.skills__icon {
+  color: #34a398;
+  font-size: 30px;
+}
+
+.skills__text {
+  padding: 5px;
+  margin-left: 10px;
+
+  color: white;
+  background-color: #34a398d2;
+  border-radius: 2px;
+}
