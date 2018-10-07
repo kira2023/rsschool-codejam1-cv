@@ -55,3 +55,44 @@
 .shortDescription__note:nth-child(2) {
   border-bottom: 1px solid white;
 }
+
+.fullDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fullDescription__section {
+  margin-bottom: 10px;
+}
+
+.fullDescription__content-wrapper-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullDescription__content-wrapper-right {
+  display: flex;
+  flex-direction: column;
+
+  width: 76%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.contacts__icon {
+  color: #34a398;
+  margin-right: 10px;
+}
+
+.contacts__img {
+  width: 12px;
+  height: 12px;
+}
