@@ -126,3 +126,42 @@
   background-color: #34a398d2;
   border-radius: 2px;
 }
+
+.languages {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages__title {
+  color: #34a398;
+  border-bottom: 1px solid #34a398;
+}
+
+.languages__text {
+  margin: 5px;
+}
+
+.level-dots {
+  display: flex;
+}
+
+.level-dots__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+
+  border: 1px solid #34a398;
+  border-radius: 50%;
+}
+
+.level-dots__item-active {
+  width: 15px;
+  height: 15px;
+
+  background-color: #34a398;
+  border-radius: 50%;
+}
