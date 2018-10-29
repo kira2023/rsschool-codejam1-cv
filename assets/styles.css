@@ -191,7 +191,7 @@
   padding: 3px;
 
   color: #22998d;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .experience__section-title {
@@ -202,6 +202,9 @@
 
 .experience__wrapper-section {
   margin: 20px 10px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .date-and-place {
